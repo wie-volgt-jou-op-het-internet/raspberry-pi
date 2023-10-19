@@ -1,5 +1,5 @@
 # raspberry-pi
-The raspberry pi must run [webdis](https://github.com/nicolasff/webdis) on a static IP address.
+The raspberry pi must run [webdis](https://github.com/nicolasff/webdis) and have a static IP address (`192.168.88.100`).
 
 ## Set-up
 - Install [Raspberry Pi OS Lite](https://www.raspberrypi.com/software/operating-systems/).
