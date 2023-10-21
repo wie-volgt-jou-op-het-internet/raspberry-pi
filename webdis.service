@@ -4,7 +4,7 @@ Requires=redis-server.service
 After=redis-server.service
 
 [Service]
-ExecStart=/usr/bin/webdis /etc/webdis.json
+ExecStart=/usr/bin/webdis /etc/webdis.prod.json
 Restart=always
 
 [Install]
