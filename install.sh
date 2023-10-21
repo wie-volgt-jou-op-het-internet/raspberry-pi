@@ -16,8 +16,6 @@ cd webdis
 make
 sudo make install
 sudo cp webdis.json /etc/
-
-# enable webdis
 cd
 git clone https://github.com/wie-volgt-jou-op-het-internet/raspberry-pi.git
 cd raspberry-pi
