@@ -6,6 +6,7 @@ sudo apt upgrade -y
 
 # install redis
 sudo apt install -y redis
+sudo systemctl enable redis-server.service
 
 # install webdis
 cd
