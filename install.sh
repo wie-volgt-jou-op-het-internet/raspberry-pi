@@ -13,7 +13,7 @@ sudo apt install -y libevent-dev build-essential git
 git clone https://github.com/nicolasff/webdis.git
 cd webdis
 make
-make install
+sudo make install
 
 # enable webdis
 cd
