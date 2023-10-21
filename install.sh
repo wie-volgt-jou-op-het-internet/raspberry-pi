@@ -14,6 +14,7 @@ git clone https://github.com/nicolasff/webdis.git
 cd webdis
 make
 sudo make install
+sudo cp webdis.json /etc/
 
 # enable webdis
 cd
