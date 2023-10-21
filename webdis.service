@@ -1,5 +1,5 @@
 [Unit]
-Description=Webdis Server
+Description=webdis
 Requires=redis-server.service
 After=redis-server.service
 
