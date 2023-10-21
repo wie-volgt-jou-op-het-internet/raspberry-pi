@@ -10,7 +10,7 @@ sudo apt install -y redis
 # install webdis
 cd
 sudo apt install -y libevent-dev build-essential git
-git clone git://github.com/nicolasff/webdis.git
+git clone https://github.com/nicolasff/webdis.git
 cd webdis
 make
 make install
