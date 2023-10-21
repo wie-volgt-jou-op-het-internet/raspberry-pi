@@ -1,10 +1,10 @@
 [Unit]
-Description=webdis
+Description=Webdis Redis HTTP Gateway
 Requires=redis-server.service
 After=redis-server.service
 
 [Service]
-ExecStart=/usr/bin/webdis /etc/webdis.prod.json
+ExecStart=/usr/local/bin/webdis /etc/webdis.json
 Restart=always
 
 [Install]
